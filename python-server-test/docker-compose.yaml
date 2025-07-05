@@ -1,0 +1,9 @@
+services:
+  myj:
+    build: ./
+    ports:
+      - "58869:58869"
+    stdin_open: true
+    tty: true
+
+
